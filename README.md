@@ -7,7 +7,7 @@ int main()
 {int P[100],N,t,cnt,i,k,n=0,j,T,m=0,flag;
     cin>>T;
     while(m<T){
-    cnt=1;
+    	cnt=1;
 	cin>>N;
 	for(i=0;i<N;i++)
 	    cin>>P[i];
@@ -19,9 +19,7 @@ int main()
 	    if(t<P[k-1]){k--;}
 	    else{flag=1;break;}}
 	    if(flag==0){cnt++;}
-	    
 	}
-	
 	m++;
 	cout<<cnt<<endl;
     }
